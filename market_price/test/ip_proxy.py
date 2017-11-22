@@ -22,10 +22,10 @@ def get_content():
             if len(item_td)==10:
                 ip_address=item_td[1].get_text()
                 port=item_td[2].get_text()
-                server_address=item_td[3].get_text().strip()
+#                server_address=item_td[3].get_text().strip()
                 speed=item_td[6].div["title"]
-                connect_time=item_td[7].div["title"]
-                survival_time=item_td[8].get_text()
+#                connect_time=item_td[7].div["title"]
+#                survival_time=item_td[8].get_text()
                 if round(float(speed[0:-2]))<1:
                     print(port,ip_address)
                 

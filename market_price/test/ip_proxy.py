@@ -82,7 +82,7 @@ class Download(object):
 
 request = Download();
 def get_total_page_num():
-    for i in range(9982, 13691):
+    for i in range(12018, 12631):
         url = "http://www.xinfadi.com.cn/marketanalysis/0/list/" + str(i) + ".shtml"
         yield url
 def get_page_content(url):
